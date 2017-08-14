@@ -1,0 +1,137 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ---------------------------------- NAVIGATION ---------------------------------- */
+
+.nav-wrapper {
+    width: 100%;
+    height: 70px;
+    background: #011627;
+    color: #EFFFE9;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.recolor {
+    color: #2EC4B6;
+}
+
+.nav {
+    height: inherit;
+}
+
+.nav-logo {
+    float: left;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-menu ul li {
+    float: left;
+}
+
+.nav-menu ul li a {  
+    color: #2EC4B6;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #2EC4B6;
+    padding: 8px 20px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-menu ul li a:hover {
+    color: #011627;
+    background: #2EC4B6;
+}
+
+/* ---------------------------------- HEADER ---------------------------------- */
+
+.home-header--wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-header {
+    margin: 0 auto;
+    padding: 140px 0;
+}
+
+.home-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #011627;
+}
+
+.home-header button {  
+    color: #2EC4B6;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #011627;
+    background: #011627;
+    padding: 8px 20px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.home-header button:hover {
+    color: #011627;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+    .container {
+        width: 1170px;
+    }
+}
