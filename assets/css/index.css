@@ -258,7 +258,20 @@ a {
 
 /* ---------------------- END OF TRENDING ---------------------- */
 
+/* ---------------------- FOOTER ---------------------- */
 
+.home-footer--wrapper {
+    width: 100%;
+    height: 100%;
+    background: #011627;
+}
+
+.home-footer {
+    width: 100%;
+    height: 300px; /* temporary fixed height */ 
+}
+
+/* ---------------------- END OF FOOTER ---------------------- */
 
 /* ---------------------- MEDIA QUERIES ---------------------- */
 

@@ -115,6 +115,11 @@
                 </div>
             </section>    
         </div>
+        <div class="home-footer--wrapper">
+            <footer class="home-footer container">
+                
+            </footer>
+        </div>
 
         <script src="assets/js/main.js"></script> 
     </body>
