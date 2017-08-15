@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/index.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
  
     </head>
@@ -53,5 +54,68 @@
                 </div>
             </section>
         </div>
+        <div class="home-trending--wrapper">
+            <section class="home-trending container">
+                <h3>Trending Movies</h3>
+                <div class="movie-one hovereffect">
+                    <p class="movie-name">Life (2017)</p>
+                    <img class="movie-poster" src="assets/images/m1.jpg" alt="">
+                    <div class="movie-info">
+                        <i class="fa fa-check fa-5x movie-icon-seenlist" aria-hidden="true"></i>
+                        <div class="movie-seenlist">
+                            1000
+                        </div>
+                        <i class="fa fa-star fa-5x movie-icon-rating" aria-hidden="true"></i>
+                        <div class="movie-rating">
+                            5/10
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-two hovereffect">
+                <div class="movie-name">John Wick 2 (2017)</div>
+                    <img class="movie-poster" src="assets/images/m2.jpg" alt="">
+                    <div class="movie-info">
+                        <i class="fa fa-check fa-5x movie-icon-seenlist" aria-hidden="true"></i>
+                        <div class="movie-seenlist">
+                            1000
+                        </div>
+                        <i class="fa fa-star fa-5x movie-icon-rating" aria-hidden="true"></i>
+                        <div class="movie-rating">
+                            5/10
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-three hovereffect">
+                <div class="movie-name">Gifted (2017)</div>
+                    <img class="movie-poster" src="assets/images/m3.jpg" alt="">
+                    <div class="movie-info">
+                        <i class="fa fa-check fa-5x movie-icon-seenlist" aria-hidden="true"></i>
+                        <div class="movie-seenlist">
+                            1000
+                        </div>
+                        <i class="fa fa-star fa-5x movie-icon-rating" aria-hidden="true"></i>
+                        <div class="movie-rating">
+                            5/10
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-four hovereffect">
+                <div class="movie-name">Kong: Skull island (2017)</div>
+                    <img class="movie-poster" src="assets/images/m4.png" alt="">
+                    <div class="movie-info">
+                        <i class="fa fa-check fa-5x movie-icon-seenlist" aria-hidden="true"></i>
+                        <div class="movie-seenlist">
+                            1000
+                        </div>
+                        <i class="fa fa-star fa-5x movie-icon-rating" aria-hidden="true"></i>
+                        <div class="movie-rating">
+                            5/10
+                        </div>
+                    </div>
+                </div>
+            </section>    
+        </div>
+
+        <script src="assets/js/main.js"></script> 
     </body>
 </html>
