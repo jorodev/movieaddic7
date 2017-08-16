@@ -268,7 +268,23 @@ a {
 
 .home-footer {
     width: 100%;
-    height: 300px; /* temporary fixed height */ 
+    height: 100px; /* temporary fixed height */
+    margin: 0 auto;
+    color: white;
+    padding: 50px 0;
+}
+
+.home-footer a {
+    color: #2EC4B6;
+}
+
+.fb {
+    color: white;
+    margin-right: 15px;
+}
+
+.git {
+    color: white;
 }
 
 /* ---------------------- END OF FOOTER ---------------------- */
