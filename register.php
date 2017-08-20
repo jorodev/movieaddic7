@@ -9,6 +9,7 @@
                 <input type="password" name="password" placeholder="Password">
                 <input type="password" name="password" placeholder="Repeat Password">
                 <input type="submit" name="register" value="Register"><br /><br />
+                <span class="recolor-2">or </span><a href="login.php">Login</a>
             </form>
         </main>
     </div>
