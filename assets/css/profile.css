@@ -120,3 +120,14 @@
 .profile-box--settings:hover a {
     color: #2EC4B6;
 }
+
+/* ---------------------- MEDIA QUERIES ---------------------- */
+
+@media (max-width: 600px) {
+    .profile-box {
+        width: 280px;
+        height: 360px;
+    }
+}
+
+/* ---------------------- END OF MEDIA QUERIES ---------------------- */
