@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/css/index.css">
         <link rel="stylesheet" href="assets/css/register.css">
         <link rel="stylesheet" href="assets/css/login.css">
+        <link rel="stylesheet" href="assets/css/profile.css">
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
