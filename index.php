@@ -8,6 +8,7 @@
         </div>
         <div class="home-features--wrapper">
             <section class="home-features container">
+                <h3>Features</h3>
                 <div class="home-features--watchlist">
                     <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
                     <h6>Watchlist</h6><br />

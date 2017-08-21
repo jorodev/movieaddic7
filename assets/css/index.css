@@ -124,6 +124,13 @@ a {
     padding: 50px 0;
 }
 
+.home-features h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #011627;
+    text-transform: uppercase;
+}
+
 .home-features--watchlist, 
 .home-features--seenlist,
 .home-features--favorites,
