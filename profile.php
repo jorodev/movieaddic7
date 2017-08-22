@@ -5,7 +5,7 @@
             <div class="profile-box--avatar">
                 <img src="#" alt="">
             </div>
-            <h6>Nickname</h6>
+            <h6><i class="fa fa-user" aria-hidden="true"></i> Nickname</h6>
             <div class="profile-box--watchlist">
                 <div class="watchlist-sum">100</div>
                 <i class="fa fa-plus" aria-hidden="true"></i> <a class="watchlist-text" href="#">Watchlist</a>
@@ -24,6 +24,46 @@
             </div>
             <div class="profile-box--settings">
                 <i class="fa fa-cog fa-1x" aria-hidden="true"></i> <a class="settings-text" href="#">Settings</a>
+            </div>
+            <div class="profile-box--lastwatchlist">
+                <h5>Your watchlist</h5>
+                <div class="lastwatchlist-imgs">
+                    <a href="#"><img src="assets/images/m1.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m2.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m3.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m4.png" alt=""></a><br />
+                </div>
+                <a class="button-more" href="#">See more</a>
+            </div>
+            <div class="profile-box--lastseenlist">
+                <h5>Your seenlist</h5>
+                <div class="lastseenlist-imgs">
+                    <a href="#"><img src="assets/images/m1.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m2.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m3.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m4.png" alt=""></a><br />
+                </div>
+                <a class="button-more" href="#">See more</a>
+            </div>
+            <div class="profile-box--lastfavorites">
+                <h5>Your favorites</h5>
+                <div class="lastfavorites-imgs">
+                    <a href="#"><img src="assets/images/m1.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m2.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m3.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m4.png" alt=""></a><br />
+                </div>
+                <a class="button-more" href="#">See more</a>
+            </div>
+            <div class="profile-box--lastratings">
+                <h5>Your ratings</h5>
+                <div class="lastratings-imgs">
+                    <a href="#"><img src="assets/images/m1.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m2.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m3.jpg" alt=""></a>
+                    <a href="#"><img src="assets/images/m4.png" alt=""></a><br />
+                </div>
+                <a class="button-more" href="#">See more</a>
             </div>
         </main>
     </div>
