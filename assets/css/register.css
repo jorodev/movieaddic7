@@ -43,7 +43,7 @@
 
 .register-box h5 {
     font-size: 25px;
-    color: #2EC4B6;
+    color: #011627;
     text-transform: uppercase;
     padding-top: 20px;
 }
@@ -60,8 +60,8 @@ input[type=password] {
     height: 40px;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #2EC4B6;
-    color: #2EC4B6;
+    border-bottom: 1px solid #011627;
+    color: #011627;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -71,8 +71,8 @@ input[type=submit] {
     width: 300px;
     height: 40px;
     margin-top: 50px;
-    background: #2EC4B6;
-    border: 1px solid #2EC4B6;
+    background: #011627;
+    border: 1px solid #011627;
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
@@ -83,11 +83,11 @@ input[type=submit] {
 .register-form
 input[type=submit]:hover {
     background: transparent;
-    color: #2EC4B6;
+    color: #011627;
 }
 
 .register-form a {
-    color: #2EC4B6;
+    color: #011627;
     text-decoration: underline;
 }
 

@@ -159,6 +159,14 @@
     width: 150px;
     height: 200px;
     margin: 5px;
+    border: 3px solid transparent;
+}
+
+.profile-box--lastwatchlist img:hover,
+.profile-box--lastseenlist img:hover,
+.profile-box--lastfavorites img:hover,
+.profile-box--lastratings img:hover {
+    border: 3px solid #2EC4B6;
 }
 
 .button-more {
