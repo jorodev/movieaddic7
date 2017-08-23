@@ -31,6 +31,14 @@ a {
     color: #2EC4B6;
 }
 
+.user-icon {
+    color: #2EC4B6 !important;
+}
+
+.user-icon:hover {
+    color: #011627;
+}
+
 .nav {
     height: inherit;
 }
@@ -61,6 +69,10 @@ a {
 .nav-menu ul li a:hover {
     color: #011627;
     background: #2EC4B6;
+}
+
+.nav-menu ul li a:hover .user-icon {
+    color: #011627 !important;
 }
 /* ---------------------- END OF NAVIGATION ---------------------- */
 

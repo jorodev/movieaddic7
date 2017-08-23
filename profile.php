@@ -1,12 +1,18 @@
 <?php include 'includes/nav.inc.php' ?>
 
+<?php 
+    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == false) {
+        header("location: index.php");
+    }
+?>
+
     <div class="profile-wrapper">
         <main class="profile-box container">
             <h6 class="profile-box--heading">Profile</h6>
             <div class="profile-box--avatar">
                 <img src="#" alt="">
             </div>
-            <h6><i class="fa fa-user" aria-hidden="true"></i> Nickname</h6>
+            <h6><i class="fa fa-user" aria-hidden="true"></i> <?php echo $_SESSION['username']; ?></h6>
             <div class="profile-box--watchlist">
                 <div class="watchlist-sum">100</div>
                 <i class="fa fa-plus" aria-hidden="true"></i> <a class="watchlist-text" href="#">Watchlist</a>
