@@ -2,6 +2,7 @@
 
     <div class="profile-wrapper">
         <main class="profile-box container">
+            <h6 class="profile-box--heading">Profile</h6>
             <div class="profile-box--avatar">
                 <img src="#" alt="">
             </div>

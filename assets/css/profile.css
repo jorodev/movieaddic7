@@ -45,6 +45,10 @@
     transform: skew(8deg) rotate(3deg);
 }
 
+.profile-box--heading {
+    font-size: 36px;
+}
+
 .profile-box--avatar {
     width: 120px;
     height: 120px;
