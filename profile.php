@@ -1,8 +1,9 @@
 <?php include 'includes/nav.inc.php' ?>
 
 <?php 
-    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == false) {
+    if (!isset($_SESSION['logged_in'])) {
         header("location: index.php");
+        die();
     }
 ?>
 
