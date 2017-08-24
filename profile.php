@@ -1,8 +1,9 @@
 <?php include 'includes/nav.inc.php' ?>
 
 <?php 
-    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == false) {
+    if (!isset($_SESSION['logged_in'])) {
         header("location: index.php");
+        die();
     }
 ?>
 
@@ -10,7 +11,7 @@
         <main class="profile-box container">
             <h6 class="profile-box--heading">Profile</h6>
             <div class="profile-box--avatar">
-                <img src="#" alt="">
+                <img class="profile-box--avatarimg" src=" <?php echo $_SESSION['image']; ?> " alt="">
             </div>
             <h6><i class="fa fa-user" aria-hidden="true"></i> <?php echo $_SESSION['username']; ?></h6>
             <div class="profile-box--watchlist">
@@ -30,7 +31,7 @@
                 <i class="fa fa-star" aria-hidden="true"></i> <a class="ratings-text" href="#">Ratings</a>
             </div>
             <div class="profile-box--settings">
-                <i class="fa fa-cog fa-1x" aria-hidden="true"></i> <a class="settings-text" href="#">Settings</a>
+                <i class="fa fa-cog fa-1x" aria-hidden="true"></i> <a class="settings-text" href="settings.php">Settings</a>
             </div>
             <div class="profile-box--lastwatchlist">
                 <h5>Your watchlist</h5>

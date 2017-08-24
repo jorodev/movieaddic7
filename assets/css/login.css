@@ -21,7 +21,7 @@
 .login-box
 {
     width: 350px;
-    height: 400px;
+    height: 380px;
     background: #F4F4F4;
     margin: 50px auto;
     position: relative;
@@ -64,7 +64,7 @@
 }
 
 .login-form {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .login-form
